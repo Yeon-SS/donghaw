@@ -560,13 +560,13 @@ h2 {
 #search {
     position: absolute;
     right: 5px;
-    width: 70%;
+    width: 40%;
     height: 26px;
     border-radius: 50px; 
     background-color: rgba(255,255,255);
     border: 1px solid #000;
     background: url(../img/icon/search.png) no-repeat 98% center ;
-    background-size: 5% ;
+    background-size: 3.2% ;
 
 }
 
