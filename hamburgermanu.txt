@@ -1,0 +1,36 @@
+  
+$(function(){
+    $(".p-submenu").on("mouseenter", function(){
+        $(".p-submenu li a").next().stop().slideDown(500)
+      });
+      $(".p-submenu").on("mouseleave", function(){
+        $(".p-submenu li a").next().stop().slideUp(500)
+
+      });
+    });
+
+
+------------------------------------------------------------------------
+
+
+$(function(){
+  
+    $(".p-submenu>li>a").next().hide();
+      $(".p-submenu li a").mouseenter(function(){
+        if($(this).next().is(":visible")){
+        $(".p-submenu li>a").stop().slideDown(500);
+        }else{
+        $(".p-submenu>li>a").next().stop().slideUp(500);
+        $(this).next().stop().slideDown(500);
+        } 
+      });
+    
+      $(".p-submenu li a").mouseout(function(){
+        if($(this).next().is(":visible")){
+          $(".p-submenu>li>a").next().stop().slideUp(500);
+        }else{
+          $(".p-submenu>li>a").next().stop().slideDown(500);
+        $(this).next().stop().slideUp(500);
+        } 
+      });
+      });

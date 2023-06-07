@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>Slick</title>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+
+    <script>
+      $( document ).ready( function() {
+        $( '.slider' ).slick( {
+          autoplay: true,
+          autoplaySpeed: 3000,
+          dots : true,
+          slidesToShow: 6,
+          slidesToScroll: 2,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 4,
+                arrows: true,
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                arrows: true,
+              }
+            }
+          ]
+        } );
+      } );
+    </script>
+
+    <style>
+       img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+      }
+      .slider {
+        width: 80%;
+        margin: 0px auto;
+      }
+      .slider .slick-slide {
+        margin: 10px;
+      }
+      .slick-prev:before, .slick-next:before {
+        color: #444444;
+      }
+
+      .slider li p {
+            font-weight: 550;
+            font-size: 0.85rem;
+            margin-top: 20px;
+            margin-bottom: -5px;
+        }
+
+      a {
+        text-decoration: none;
+        color : #000;
+        font-size: 0.75rem;
+      }
+
+      a:hover {
+            font-weight: bold;
+        }
+
+      li {
+        list-style: none;
+        text-align: center;
+        /* background-color: rgb(240, 240, 240);  */
+        padding-top: 20px;
+        height: 200px;
+      }
+
+/* 
+      .slixk-dots li button {
+        width: 80%;
+        background-color: none;
+        color: #eb8658;
+        border-bottom-style: ;
+      }
+
+      .slixk-dots li button :before{
+        content: '■'; 
+        border: 1px solid #f89465;
+        color: #eb8658; 
+
+
+    } 
+
+
+      li::before {
+        content: '□';
+        font-size: 50%;
+        padding-right: 5px;
+      } */
+      
+    </style>
+
+  </head>
+  <body>
+    <div class="slider">
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=704&t_page=1&b=10&s=15">
+        <li><span><img src="./img/NEW/a1.jpg" alt="동화쿠에티아핀정">
+        <p>[전문의약품]</p> <br> 동화쿠에티아핀정 <br> 25mg, 100mg, 200mg, 300mg</span></li>
+      </a>
+              
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=703&t_page=1&b=20&s=21">
+        <li><span><img src="./img/NEW/a2.jpg" alt="부채표 십신탕">
+        <p>[일반의약품]</p> <br> 부채표 십신탕</span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=701&t_page=1&b=45&s=42">
+          <li><span><img src="./img/NEW/a3.jpg" alt="헬미나">
+          <p>[건강기능식품]</p> <br> 헬미나 </span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=687&t_page=1&b=46&s=40">
+          <li><span><img src="./img/NEW/a4.jpg" alt="도구리 파워 비타민">
+          <p>[식품 ▪ 음료]</p> <br> 도구리 파워 비타민 </span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=681&t_page=1&b=20&s=23">
+          <li><span><img src="./img/NEW/a5.jpg" alt="세비타비겔">
+          <p>[일반의약품]</p> <br> 세비타비겔 </span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=680&t_page=1&b=46&s=40">
+          <li><span><img src="./img/NEW/a6.jpg" alt="슈퍼히어로드링크">
+          <p>[식품 ▪ 음료]</p> <br> 슈퍼히어로드링크 </span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=679&t_page=1&b=30&s=99">
+          <li><span><img src="./img/NEW/a7.jpg" alt="인트린직 크림, 로션 MD">
+          <p>[의약외품 ▪ 기타]</p> <br> 인트린직 크림, 로션 MD</span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=678&t_page=1&b=10&s=10">
+          <li><span><img src="./img/NEW/a8.jpg" alt="라베듀엣정">
+          <p>[전문의약품]</p> <br> 라베듀엣정 <br> 10/500mg, 20/500mg</span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=676&t_page=1&b=30&s=99">
+          <li><span><img src="./img/NEW/a9.jpg" alt="잇치 가글액">
+          <p>[의약외품 ▪ 기타]</p> <br> 잇치 가글액</span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=665&t_page=1&b=20&s=20">
+          <li><span><img src="./img/NEW/a10.jpg" alt="소가프텐정">
+          <p>[일반의약품]</p> <br> 소가프텐정</span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=664&t_page=1&b=30&s=99">
+          <li><span><img src="./img/NEW/a11.jpg" alt="인트린직 아이비 젤 MD">
+          <p>[의약외품 ▪ 기타]</p> <br> 인트린직 아이비 젤 MD</span></li>
+      </a>
+
+      <a href="http://www.dwpharm-dc.com/fusidyne01">
+          <li><span><img src="./img/NEW/a12.jpg" alt="후시다인 후시드 크림 플러스">
+          <p>[화장품]</p> <br> 후시다인 후시드 크림 플러스</span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=626&t_page=2&b=20&s=22">
+          <li><span><img src="./img/NEW/a13.jpg" alt="코마키텐 나잘스프레이">
+          <p>[일반의약품]</p> <br> 코마키텐 나잘스프레이</span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=622&t_page=2&b=20&s=25">
+          <li><span><img src="./img/NEW/a14.jpg" alt="헬민리버스액">
+          <p>[일반의약품]</p> <br> 헬민리버스액</span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=621&t_page=2&b=20&s=20">
+          <li><span><img src="./img/NEW/a15.jpg" alt="활명수-유액">
+          <p>[일반의약품]</p> <br> 활명수-유액</span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=615&t_page=2&b=30&s=99">
+          <li><span><img src="./img/NEW/a16.jpg" alt="알프스비포액">
+          <p>[의약외품 ▪ 기타]</p> <br> 알프스비포액</span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=610&t_page=2&b=20&s=26">
+          <li><span><img src="./img/NEW/a17.jpg" alt="비라밸정">
+          <p>[일반의약품]</p> <br> 비라밸정</span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=597&t_page=2&b=45&s=99">
+          <li><span><img src="./img/NEW/a18.jpg" alt="덴티프로">
+          <p>[건강기능식품]</p> <br> 덴티프로</span></li>
+      </a>
+
+      <a href="http://www.dong-wha.co.kr/product/content.asp?t_idx=567&t_page=2&b=30&s=99">
+          <li><span><img src="./img/NEW/a19.jpg" alt="미인활액">
+          <p>[의약외품 ▪ 기타]</p> <br> 미인활액</span></li>
+      </a>
+
+      
+    </div>
+  </body>
+</html>
